@@ -106,7 +106,7 @@ each json file consists of a list of items, and each item is similar to the foll
 {
   "tokens": ["hello", "world", "!"],
   "tags": ["O", "B-object", "O"],
-  "chunks_tags": ["O", "B-M", "O"]
+  "chunks_tags": ["O", "B-M", "O"],
   "mentions": [
       ["object", [1,2]],
   ],
