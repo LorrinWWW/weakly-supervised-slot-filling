@@ -202,7 +202,7 @@ Language model embeddings. "lm_emb_path" is required if "lm_emb_dim" > 0.
 
 which is a pickle file, representing a dictionary object, mapping a tuple of tokens to a numpy matrix:
 
-```json
+```python
 {
   (t0_0,t0_1,t0_2,...,t0_23): np.array([24, 1024]),
   (t1_0,t1_1,t1_2,...,t1_16): np.array([17, 1024]),
